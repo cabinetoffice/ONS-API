@@ -1,1 +1,1 @@
-#Automating Trade Analysis 
+# Automating Trade Analysis 
