@@ -5,10 +5,7 @@ import requests
 import io 
 
 #a list containing the links you want to download from (they must be in csv form)
-relevant_data = ['https://www.ons.gov.uk/generator?format=csv&uri=/economy/nationalaccounts/balanceofpayments/timeseries/l87s/mret', 
-                 "https://www.ons.gov.uk/generator?format=csv&uri=/economy/nationalaccounts/balanceofpayments/timeseries/l87u/diop", 
-                 "https://www.ons.gov.uk/generator?format=csv&uri=/economy/nationalaccounts/balanceofpayments/timeseries/l87o/diop",
-                    "https://www.ons.gov.uk/generator?format=csv&uri=/economy/nationalaccounts/balanceofpayments/timeseries/l87m/mret"]
+relevant_data = [""]
 
 #don't choose download
 chart_or_download = input("Do you want chart/s or a download? (C for chart/s, D for Download)")
